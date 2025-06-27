@@ -46,7 +46,12 @@ export const routes: Routes = [
         loadChildren: () => import('./pacientes/pacientes.routes').then(m => m.PACIENTES_ROUTES),
         canActivate: [() => import('./core/auth.guard').then(m => m.AuthGuard)]
       },
-
+      {
+        path: 'roles-permisos',
+        loadChildren: () => import('./roles-permisos.routes').then(m => m.ROLES_PERMISOS_ROUTES),
+        canActivate: [() => import('./core/role.guard').then(m => m.RoleGuard)],
+        data: { role: 'administrador' }
+      }
     ]
   },
   { path: '', redirectTo: 'auth/login', pathMatch: 'full' },
