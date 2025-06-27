@@ -30,4 +30,8 @@ export class LayoutComponent {
     this.auth.logout();
     this.router.navigate(['/auth/login']);
   }
+
+  logMenuClick() {
+    console.log('[LayoutComponent] Clic en menú Roles y Permisos detectado.');
+  }
 }
