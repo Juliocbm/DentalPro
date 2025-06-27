@@ -24,7 +24,7 @@ export class AuthService {
    */
   login({ username, password }: { username: string, password: string }): Observable<any> {
     if (username === 'admin' && password === 'admin') {
-      const user = { username, role: 'admin' };
+      const user = { username, role: 'administrador' };
       this.userSubject.next(user);
       const fakeToken = 'fake-jwt-token';
       sessionStorage.setItem('token', fakeToken);

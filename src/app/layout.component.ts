@@ -3,14 +3,18 @@ import { RouterOutlet } from '@angular/router';
 import { AuthService } from './core/auth.service';
 import { Router } from '@angular/router';
 
+import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent {
+  alert(msg: string) { window.alert(msg); }
+
   usuario: any;
 
   constructor(private auth: AuthService, private router: Router) {

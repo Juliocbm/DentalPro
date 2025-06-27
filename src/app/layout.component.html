@@ -21,7 +21,13 @@
               Pacientes
             </a>
           </li>
-          <!-- Más secciones -->
+          <li class="nav-item" *ngIf="usuario?.role === 'administrador'">
+  <a class="nav-link" routerLink="/admin/roles-permisos" tabindex="0">
+    <span class="nav-link-icon"><i class="ti ti-shield-lock"></i></span>
+    Roles y Permisos
+  </a>
+</li>
+<!-- Más secciones -->
         </ul>
       </div>
     </div>

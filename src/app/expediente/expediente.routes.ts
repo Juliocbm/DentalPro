@@ -1,5 +1,8 @@
 import { Routes } from '@angular/router';
 
 export const EXPEDIENTE_ROUTES: Routes = [
-  // { path: '', component: ExpedienteHomeComponent },
+  {
+    path: '',
+    loadComponent: () => import('./expediente-home.component').then(m => m.ExpedienteHomeComponent)
+  }
 ];

@@ -1,5 +1,8 @@
 import { Routes } from '@angular/router';
 
 export const PERSONAL_ROUTES: Routes = [
-  // { path: '', component: PersonalHomeComponent },
+  {
+    path: '',
+    loadComponent: () => import('./personal-home.component').then(m => m.PersonalHomeComponent)
+  }
 ];
