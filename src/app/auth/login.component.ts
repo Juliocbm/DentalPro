@@ -141,7 +141,7 @@ export class LoginComponent {
         if (user && user.token) {
           // El token ya se guarda en AuthService, aquí podrías hacer lógica adicional si lo necesitas
           this.toastr.success('¡Bienvenido!');
-          this.router.navigate(['/agenda']);
+          this.router.navigate(['/dashboard']);
         } else {
           this.toastr.error('Credenciales incorrectas');
           this.loading = false;

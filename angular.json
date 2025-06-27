@@ -32,6 +32,8 @@
               }
             ],
             "styles": [
+              "node_modules/@tabler/core/dist/css/tabler.min.css",
+              "node_modules/@tabler/icons-webfont/dist/tabler-icons.min.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -96,7 +98,9 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+             "node_modules/@tabler/core/dist/css/tabler.min.css",
+  "node_modules/@tabler/icons-webfont/dist/tabler-icons.min.css",
+  "src/styles.scss"
             ],
             "scripts": []
           }

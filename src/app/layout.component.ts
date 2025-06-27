@@ -2,22 +2,23 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AuthService } from './core/auth.service';
 import { Router } from '@angular/router';
-import { LayoutComponent } from './layout.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-layout',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  templateUrl: './layout.component.html',
+  styleUrls: ['./layout.component.scss']
 })
-export class AppComponent {
-  title = 'dentalPro';
+export class LayoutComponent {
   usuario: any;
 
   constructor(private auth: AuthService, private router: Router) {
     this.auth.getUser$().subscribe(user => {
       this.usuario = user;
+      if (!user) {
+        this.router.navigate(['/auth/login']);
+      }
     });
   }
 

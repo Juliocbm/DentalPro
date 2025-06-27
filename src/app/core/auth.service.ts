@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, of, BehaviorSubject } from 'rxjs';
 
 /**
  * Servicio de autenticación para gestionar login, logout y token JWT.
@@ -13,7 +13,7 @@ export class AuthService {
    * Usuario autenticado actualmente (simulado).
    * Cuando haya backend, este dato puede venir del backend o decodificarse del token.
    */
-  private user: { username: string, role: string } | null = null;
+  private userSubject = new BehaviorSubject<{ username: string, role: string } | null>(null);
 
   /**
    * Realiza el login del usuario.
@@ -23,13 +23,12 @@ export class AuthService {
    * @returns Observable con el usuario autenticado y el token, o null si falla.
    */
   login({ username, password }: { username: string, password: string }): Observable<any> {
-    // Simulación de login, reemplazar con llamada HTTP real
     if (username === 'admin' && password === 'admin') {
-      this.user = { username, role: 'admin' };
-      // Simular un token
+      const user = { username, role: 'admin' };
+      this.userSubject.next(user);
       const fakeToken = 'fake-jwt-token';
       sessionStorage.setItem('token', fakeToken);
-      return of({ ...this.user, token: fakeToken });
+      return of({ ...user, token: fakeToken });
     }
     return of(null);
   }
@@ -39,8 +38,10 @@ export class AuthService {
    * Elimina el usuario y el token del sessionStorage.
    */
   logout() {
-    this.user = null;
+    console.log('[AuthService] Logout called. User before logout:', this.userSubject.value);
+    this.userSubject.next(null);
     sessionStorage.removeItem('token');
+    console.log('[AuthService] Logout complete. User after logout:', this.userSubject.value);
   }
 
   /**
@@ -56,14 +57,18 @@ export class AuthService {
    * @returns true si hay usuario autenticado, false en caso contrario.
    */
   isLoggedIn(): boolean {
-    return !!this.user;
+    return !!this.userSubject.value;
   }
 
   hasRole(role: string): boolean {
-    return this.user?.role === role;
+    return this.userSubject.value?.role === role;
   }
 
   getUser() {
-    return this.user;
+    return this.userSubject.value;
+  }
+
+  getUser$() {
+    return this.userSubject.asObservable();
   }
 }
