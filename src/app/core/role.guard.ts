@@ -8,9 +8,15 @@ export class RoleGuard implements CanActivate {
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean | UrlTree {
     const role = route.data['role'];
-    if (this.auth.isLoggedIn() && this.auth.hasRole(role)) {
+    const isLoggedIn = this.auth.isLoggedIn();
+    const userHasRole = this.auth.hasRole(role);
+    console.log(`[RoleGuard] Route: ${state.url}, Required Role: ${role}, isLoggedIn: ${isLoggedIn}, userHasRole: ${userHasRole}`);
+
+    if (isLoggedIn && userHasRole) {
+      console.log('[RoleGuard] Access GRANTED.');
       return true;
     }
+    console.log('[RoleGuard] Access DENIED. Redirecting to /auth/login.');
     return this.router.createUrlTree(['/auth/login']);
   }
 }
