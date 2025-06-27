@@ -34,6 +34,37 @@ export class AuthService {
   }
 
   /**
+   * Registra un nuevo usuario (simulación).
+   * @param data Datos del usuario a registrar
+   * @returns Observable con mensaje de éxito o error
+   */
+  register(data: { nombre: string, email: string, password: string, rol: string }): Observable<any> {
+    // Simulación: siempre éxito, en backend real enviar petición HTTP
+    return of({ message: 'Usuario registrado correctamente' });
+  }
+
+  /**
+   * Solicita recuperación de contraseña (simulación)
+   * @param email Email del usuario
+   * @returns Observable con mensaje
+   */
+  forgotPassword(email: string): Observable<any> {
+    // Simulación: siempre éxito
+    return of({ message: 'Se ha enviado un correo para restablecer la contraseña' });
+  }
+
+  /**
+   * Restablece la contraseña usando token (simulación)
+   * @param token Token recibido por email
+   * @param newPassword Nueva contraseña
+   * @returns Observable con mensaje
+   */
+  resetPassword(token: string, newPassword: string): Observable<any> {
+    // Simulación: siempre éxito
+    return of({ message: 'Contraseña restablecida correctamente' });
+  }
+
+  /**
    * Cierra la sesión del usuario.
    * Elimina el usuario y el token del sessionStorage.
    */

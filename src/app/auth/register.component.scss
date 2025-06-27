@@ -1,0 +1,19 @@
+/* Estilos para RegisterComponent */
+
+.register-links {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  a {
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 0.98rem;
+    transition: color 0.2s;
+    &:hover {
+      color: #0d47a1;
+      text-decoration: underline;
+    }
+  }
+}

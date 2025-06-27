@@ -1,0 +1,35 @@
+<div class="page page-center">
+  <div class="container-tight py-4">
+    <div class="text-center mb-4">
+      <a href="#" class="navbar-brand navbar-brand-autodark"><span class="fs-2">DentalPro</span></a>
+    </div>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="card card-md">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">Registro</h2>
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input formControlName="nombre" type="text" class="form-control" placeholder="Nombre completo" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input formControlName="email" type="email" class="form-control" placeholder="tu@email.com" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Contraseña</label>
+          <input formControlName="password" type="password" class="form-control" placeholder="Contraseña" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Rol</label>
+          <select formControlName="rol" class="form-select">
+            <option *ngFor="let r of roles" [value]="r">{{ r }}</option>
+          </select>
+        </div>
+        <button class="btn btn-primary w-100" [disabled]="loading">Registrar</button>
+        <div *ngIf="errorMsg" class="alert alert-danger mt-2">{{ errorMsg }}</div>
+      </div>
+    </form>
+    <div class="register-links text-center mt-3">
+      <a routerLink="/auth/login">¿Ya tienes cuenta? Inicia sesión</a>
+    </div>
+  </div>
+</div>
