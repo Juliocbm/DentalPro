@@ -22,12 +22,20 @@
             </a>
           </li>
           <li class="nav-item" *ngIf="usuario?.role === 'administrador'">
-  <a class="nav-link" routerLink="roles-permisos" (click)="logMenuClick()" tabindex="0">
-    <span class="nav-link-icon"><i class="ti ti-shield-lock"></i></span>
-    Roles y Permisos
-  </a>
-</li>
-<!-- Más secciones -->
+            <div class="nav-link text-uppercase text-muted small mt-3 mb-1" style="pointer-events: none;">
+              <span class="nav-link-icon"><i class="ti ti-settings"></i></span> Administrador
+            </div>
+            <ul class="nav flex-column ms-3">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/admin/roles-permisos" (click)="logMenuClick()" tabindex="0">
+                  <span class="nav-link-icon"><i class="ti ti-shield-lock"></i></span>
+                  Roles y Permisos
+                </a>
+              </li>
+              <!-- Aquí puedes agregar más opciones administrativas en el futuro -->
+            </ul>
+          </li>
+          <!-- Más secciones -->
         </ul>
       </div>
     </div>

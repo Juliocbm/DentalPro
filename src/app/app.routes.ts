@@ -7,15 +7,14 @@ export const routes: Routes = [
     loadChildren: () => import('./auth/auth.routes').then(m => m.AUTH_ROUTES)
   },
   {
-    path: 'admin',
-    loadChildren: () => import('./admin/admin.routes').then(m => m.ADMIN_ROUTES)
-  },
-
-  {
     path: '',
     loadComponent: () => import('./layout.component').then(m => m.LayoutComponent),
     canActivate: [() => import('./core/auth.guard').then(m => m.AuthGuard)],
     children: [
+      {
+        path: 'admin',
+        loadChildren: () => import('./admin/admin.routes').then(m => m.ADMIN_ROUTES)
+      },
       {
         path: 'dashboard',
         loadComponent: () => import('./dashboard/dashboard.component').then(m => m.DashboardComponent),
@@ -45,12 +44,6 @@ export const routes: Routes = [
         path: 'pacientes',
         loadChildren: () => import('./pacientes/pacientes.routes').then(m => m.PACIENTES_ROUTES),
         canActivate: [() => import('./core/auth.guard').then(m => m.AuthGuard)]
-      },
-      {
-        path: 'roles-permisos',
-        loadChildren: () => import('./roles-permisos.routes').then(m => m.ROLES_PERMISOS_ROUTES),
-        canActivate: [() => import('./core/role.guard').then(m => m.RoleGuard)],
-        data: { role: 'administrador' }
       }
     ]
   },

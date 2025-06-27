@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
+  <h2>Pacientes</h2>
     <div class="page-body">
       <div class="container-xl">
         <div class="card mt-4">
