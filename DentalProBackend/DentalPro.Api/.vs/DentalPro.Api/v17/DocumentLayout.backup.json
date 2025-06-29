@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0119531B-6DD8-9F71-AB59-32EADB048743}|..\\DentalPro.Application\\DentalPro.Application.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0119531B-6DD8-9F71-AB59-32EADB048743}|..\\DentalPro.Application\\DentalPro.Application.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.application\\dtos\\auth\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0119531B-6DD8-9F71-AB59-32EADB048743}|..\\DentalPro.Application\\DentalPro.Application.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.api\\dentalpro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FFF3E98-5442-4241-A7BC-94AB02D43C77}|DentalPro.Api.csproj|solutionrelative:dentalpro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\dentalpro.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\configurations\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\configurations\\usuariorolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE12063-F571-4F58-A93E-48D6084B57B7}|..\\DentalPro.Domain\\DentalPro.Domain.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE12063-F571-4F58-A93E-48D6084B57B7}|..\\DentalPro.Domain\\DentalPro.Domain.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE12063-F571-4F58-A93E-48D6084B57B7}|..\\DentalPro.Domain\\DentalPro.Domain.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\configurations\\consultorioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE12063-F571-4F58-A93E-48D6084B57B7}|..\\DentalPro.Domain\\DentalPro.Domain.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.domain\\entities\\consultorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\configurations\\pacienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE12063-F571-4F58-A93E-48D6084B57B7}|..\\DentalPro.Domain\\DentalPro.Domain.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.domain\\entities\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E2D28F-A866-436A-BCA4-933348910F12}|..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj|c:\\proyectos\\dentalproweb\\dentalprobackend\\dentalpro.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T02:06:49.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:06:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:05:45.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:05:20.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:04:56.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DentalPro.Infrastructure",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\DentalPro.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-29T01:32:18.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "..\\DentalPro.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:04:20.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\DTOs\\Auth\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Application\\DTOs\\Auth\\LoginResponse.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\DTOs\\Auth\\LoginResponse.cs",
+              "RelativeToolTip": "..\\DentalPro.Application\\DTOs\\Auth\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:03:41.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "..\\DentalPro.Application\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:03:08.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\RolConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\RolConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\RolConfiguration.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\RolConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:27:45.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioRolConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioRolConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioRolConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioRolConfiguration.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioRolConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:27:29.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:27:07.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Domain\\Entities\\Rol.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Rol.cs",
+              "RelativeToolTip": "..\\DentalPro.Domain\\Entities\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:26:49.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\UsuarioRol.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Domain\\Entities\\UsuarioRol.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\UsuarioRol.cs",
+              "RelativeToolTip": "..\\DentalPro.Domain\\Entities\\UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:26:34.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "..\\DentalPro.Domain\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:26:14.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsultorioConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\ConsultorioConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\ConsultorioConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\ConsultorioConfiguration.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\ConsultorioConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:25:14.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Consultorio.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Consultorio.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Domain\\Entities\\Consultorio.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Consultorio.cs",
+              "RelativeToolTip": "..\\DentalPro.Domain\\Entities\\Consultorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:24:51.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PacienteConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\PacienteConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\PacienteConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\Configurations\\PacienteConfiguration.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\Configurations\\PacienteConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:23:57.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Paciente.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Domain\\Entities\\Paciente.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Domain\\Entities\\Paciente.cs",
+              "RelativeToolTip": "..\\DentalPro.Domain\\Entities\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:23:27.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\DependencyInjection.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:21:00.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DentalPro.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\DentalPro.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:19:28.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DentalPro.Api",
+              "DocumentMoniker": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\DentalPro.Api.csproj",
+              "RelativeDocumentMoniker": "DentalPro.Api.csproj",
+              "ToolTip": "C:\\Proyectos\\DentalProWeb\\DentalProBackend\\DentalPro.Api\\DentalPro.Api.csproj",
+              "RelativeToolTip": "DentalPro.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-29T01:04:07.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
