@@ -18,10 +18,15 @@ export class LayoutComponent {
   usuario: any;
 
   constructor(private auth: AuthService, private router: Router) {
+    console.log('🏗️ LayoutComponent constructor ejecutado');
     this.auth.getUser$().subscribe(user => {
+      console.log('👤 LayoutComponent - Usuario recibido:', user);
       this.usuario = user;
       if (!user) {
+        console.log('❌ LayoutComponent - No hay usuario, redirigiendo a login');
         this.router.navigate(['/auth/login']);
+      } else {
+        console.log('✅ LayoutComponent - Usuario autenticado, permaneciendo en layout');
       }
     });
   }

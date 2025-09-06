@@ -32,7 +32,12 @@
                   Roles y Permisos
                 </a>
               </li>
-              <!-- Aquí puedes agregar más opciones administrativas en el futuro -->
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/dashboard" [queryParams]="{tab: 'users'}">
+                  <span class="nav-link-icon"><i class="ti ti-users"></i></span>
+                  Ver Usuarios
+                </a>
+              </li>
             </ul>
           </li>
           <!-- Más secciones -->
@@ -49,13 +54,20 @@
             <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown">
               <span class="avatar avatar-sm" style="background-image: url(https://tabler-icons.io/static/avatar.png)"></span>
               <div class="d-none d-xl-block ps-2">
-                <div>{{ usuario?.username || 'default' }}</div>
-                <div class="mt-1 small text-muted">{{ usuario?.role || '' }}</div>
+                <div>{{ usuario?.full_name || usuario?.email || 'Usuario' }}</div>
+                <div class="mt-1 small text-muted">{{ usuario?.role === 'administrador' ? 'Administrador' : 'Usuario' }}</div>
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-              <a class="dropdown-item" href="#">Perfil</a>
-              <a class="dropdown-item" href="#" (click)="logout()">Cerrar sesión</a>
+              <a class="dropdown-item" routerLink="/profile">
+                <i class="ti ti-user me-2"></i>
+                Mi Perfil
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#" (click)="logout()">
+                <i class="ti ti-logout me-2"></i>
+                Cerrar sesión
+              </a>
             </div>
           </div>
         </div>

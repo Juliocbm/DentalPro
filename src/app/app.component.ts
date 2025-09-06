@@ -1,28 +1,26 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AuthService } from './core/auth.service';
-import { Router } from '@angular/router';
-import { LayoutComponent } from './layout.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `
+    <div class="app-container">
+      <router-outlet></router-outlet>
+    </div>
+  `,
+  styles: [`
+    .app-container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+  `]
 })
 export class AppComponent {
-  title = 'dentalPro';
-  usuario: any;
-
-  constructor(private auth: AuthService, private router: Router) {
-    this.auth.getUser$().subscribe(user => {
-      this.usuario = user;
-    });
-  }
-
-  logout() {
-    this.auth.logout();
-    this.router.navigate(['/auth/login']);
+  constructor() {
+    console.log('🚀 DentalPro App loaded successfully!');
   }
 }

@@ -30,13 +30,13 @@ export class ResetPasswordComponent {
   onSubmit() {
     if (this.resetForm.invalid || this.resetForm.value.password !== this.resetForm.value.confirm) return;
     this.loading = true;
-    this.auth.resetPassword(this.token, this.resetForm.value.password).subscribe({
+    this.auth.resetPassword(this.resetForm.value.password).subscribe({
       next: () => {
         this.msg = 'Contraseña restablecida correctamente';
         this.loading = false;
       },
       error: err => {
-        this.errorMsg = err.error?.message || 'Error al restablecer';
+        this.errorMsg = err.message || 'Error al restablecer';
         this.loading = false;
       }
     });

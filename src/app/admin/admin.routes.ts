@@ -8,7 +8,7 @@ export const ADMIN_ROUTES: Routes = [
       {
         path: 'roles-permisos',
         component: RolesPermisosComponent,
-        canActivate: [() => import('../core/role.guard').then(m => m.RoleGuard)],
+        canActivate: [() => import('../core/guards/role.guard').then(m => m.RoleGuard)],
         data: { role: 'administrador' }
       },
       // Aquí puedes agregar más rutas hijas de administración

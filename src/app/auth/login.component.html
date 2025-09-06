@@ -17,6 +17,24 @@
         <span *ngIf="loading"><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Entrando...</span>
       </button>
     </form>
+    
+    <!-- Error Messages -->
+    <div *ngIf="errorMessage" class="error-container">
+      <div class="error-message">
+        <i class="error-icon">⚠️</i>
+        <span>{{ errorMessage }}</span>
+      </div>
+      
+      <!-- Email Confirmation Error with Resend Option -->
+      <div *ngIf="showEmailConfirmationError" class="email-confirmation-actions">
+        <p class="confirmation-text">
+          No has confirmado tu email. Revisa tu bandeja de entrada y carpeta de spam.
+        </p>
+        <button type="button" class="resend-btn" (click)="resendConfirmationEmail()">
+          Reenviar email de confirmación
+        </button>
+      </div>
+    </div>
     <div class="login-links">
       <a routerLink="/auth/register">¿No tienes cuenta? Regístrate</a>
       <a routerLink="/auth/forgot-password">¿Olvidaste tu contraseña?</a>
